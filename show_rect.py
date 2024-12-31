@@ -8,6 +8,11 @@ labels_folder = "E:/fsy/hedao/"
 result_folder = "E:/fsy/result"
 classes_file = "E:/fsy/classes.txt"  # 类别名称文件
 
+images_folder = "E:/sdsdsd/pic1/"
+labels_folder = "E:/sdsdsd/pic1/"
+result_folder = "E:/fsy/tools/result"
+classes_file = "E:/sdsdsd//cls.txt"  # 类别名称文件
+
 # 检查结果文件夹是否存在，不存在则创建
 if not os.path.exists(result_folder):
     os.makedirs(result_folder)
